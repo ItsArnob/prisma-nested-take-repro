@@ -1,0 +1,16 @@
+{
+  "name": "prisma-nested-include-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "seed": "node seed.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.15.2",
+    "prisma": "^3.15.2",
+    "random-sentence": "^1.0.4"
+  },
+  "type": "module"
+}
